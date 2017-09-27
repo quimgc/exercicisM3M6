@@ -37,18 +37,5 @@ class PrimeraClasse {
 }
 
 
-//
-//$obj = new PrimeraClasse("Quim puto amo ");    
-//$obj1 = new PrimeraClasse(123443);    
-//
-//$obj->mostrar();
-//
-//
-////per utilitzar el metode estàtic s'ha de fer a través de la classe. 
-//PrimeraClasse::mostrarEstatic();
-//
-//
-//$obj1->parametresVariables(1, 'a', 3, 'aaaa');
-
 $a = true;
 var_dump($a);

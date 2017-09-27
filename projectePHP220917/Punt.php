@@ -18,20 +18,6 @@ class Punt {
     private $x;
     private $y;
 
-//    function __construct() {
-//        $punt = func_get_args();
-//        if ($punt) {
-//            $this->x = $punt['0'];
-//
-//            $this->y = $punt['1'];
-//        } else {
-//
-//            $this->x = 0;
-//
-//            $this->y = 0;
-//        }
-//    }
-//    
     function __construct($x, $y) {
         $this->x=$x;
         $this->y=$y;
@@ -66,6 +52,7 @@ class Punt {
     }
 
 }
+
 
 $obj = new Punt(1, 2);
 $ob2 = new Punt(3, 4);
