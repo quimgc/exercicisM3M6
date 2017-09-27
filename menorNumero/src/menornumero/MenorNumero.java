@@ -8,7 +8,7 @@ package menornumero;
 import java.util.Scanner;
 
 /**
- *
+ *s
  * @author quim
  */
 public class MenorNumero {
