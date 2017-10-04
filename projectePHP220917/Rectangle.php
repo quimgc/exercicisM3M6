@@ -21,6 +21,8 @@ class Rectangle {
     private $base;
     private $altura;
 
+   
+    
     function __construct($p1, $p3) {
         $this->p1 = $p1;
         $this->p3 = $p3;

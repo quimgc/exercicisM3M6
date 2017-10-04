@@ -41,19 +41,6 @@ public class MenorNumero {
 
     /**
      * *
-     * Converteixo el num a String perque si ens envien per exemple, el numero
-     * 221, d'aquesta forma puc recorrer l'array de String i sumar 2 + 2 + 1.
-     *
-     * @param num Integer.toString(param) el que fa es convertir el num a un
-     * String.
-     */
-//    public void convertirNumToString(int num) {
-//        //System.out.println("convertirNumTostring " + num);
-//        sumarNumeros(Integer.toString(num));
-//        
-//    }
-    /**
-     * *
      * Passo per parametre l'string anterior (conté el numero). recorro l'string
      * i sumo els numeros, si és igual a el primer numero, aguardo l'string
      * passat.
@@ -71,14 +58,12 @@ public class MenorNumero {
         }
 
         return sumatori;
-//        if (sumatori == this.primerNumero) {
-//            comprovarNums(num);
-//
-//        }
-//        System.out.println(sumatori);
-//        
+     
     }
-    
+    /***
+     * Retorno el numeroMesPetit
+     * @return 
+     */
     public int numMesPetit(){
         return numeroMesPetit;
     }
