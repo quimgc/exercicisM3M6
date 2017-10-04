@@ -21,6 +21,14 @@ public class MenorNumero {
         this.primerNumero = num;
 
     }
+    
+    
+    
+    
+    
+    
+    
+    
 
     /**
      * *
@@ -38,6 +46,11 @@ public class MenorNumero {
         }
 
     }
+    
+    
+    
+    
+    
 
     /**
      * *
@@ -60,6 +73,13 @@ public class MenorNumero {
         return sumatori;
      
     }
+    
+    
+    
+    
+    
+    
+    
     /***
      * Retorno el numeroMesPetit
      * @return 
@@ -84,7 +104,6 @@ public class MenorNumero {
                 obj.comprovarNums(num,obj.sumarNumeros(num));
 
             }
-
 
         }
 

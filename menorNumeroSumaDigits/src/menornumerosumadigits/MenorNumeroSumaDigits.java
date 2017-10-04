@@ -15,26 +15,39 @@ public class MenorNumeroSumaDigits {
 
 
     public static String sumatoriDigits(int num) {
-
+        
+        //si el numero és més petit que 10, retorno el numero concatenat amb una cadena
+        //buida ja que la funció retorna un String.
+        
         if (num < 10) {
             return num + "";
         }
+        
+        //declaro una cadena per al resultat.
         String resultat = "";
+        
+        //faig la divisió de num / 9 per saber el numero de 9 que he de concatenar al resultat.
+        // només afago la part entera, NO la decimal.
         int compt = num / 9;
+        
+        //faig el mòdul per 9 saber el numero que he de concatenar al resultat.
         if (num % 9 != 0) {
             resultat = "" + num % 9;
-
         }
 
+        //faig un bucle per concatenar tants 9 com sigui el resultat de la variable compt
         while (compt != 0) {
             resultat = resultat + 9;
 
             compt--;
         }
 
+        //retorno el resultat
         return resultat;
 
     }
+    
+    
 
     /**
      * @param args the command line arguments
